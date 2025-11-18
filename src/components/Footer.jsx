@@ -11,16 +11,18 @@ const Footer = () => {
         <div className="container">
           <div className="footer-top">
             <div className="row">
-              <div className="col-12 col-md-6 col-lg-3 mb-4">
-                <h5>About Home Rantal Website</h5>
+              <div className="col-12  items-center flex flex-col col-md-6 col-lg-3 mb-4">
+                <h4>About Homee Renter</h4>
                 <p>
-                  We bring you the latest fashion trends and stylish outfits for
-                  every occasion. From casual wear to elegant dresses, The Moon
-                  Shoper offers quality, comfort, and confidence in every piece.
-                  Shop your favorite styles online — fashion made simple and
-                  affordable!
+                  This Web has a lots of kind of home for you rent or buy. You
+                  will have luxury and modern lives with home you rent or buy,
+                  cause we have make it by highest focus.
                 </p>
-                <div className="social-icons mt-2 text-2xl">
+                <p>
+                  Find your dream home today, explore apartements, villas, and
+                  hotels for rent or sale now!
+                </p>
+                <div className="social-icons mt-2 flex w-full gap-3 items-center justify-center text-2xl">
                   <a href="https://www.facebook.com/povchet120209240707?mibextid=wwXIfr&mibextid=wwXIfr">
                     <i className="fab fa-facebook-f"></i>
                   </a>
@@ -41,17 +43,27 @@ const Footer = () => {
 
               <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <h5>Quick Links</h5>
-                <div className="footer-links">
-                  <a href="#">Home</a>
-                  <a href="./category.html">Cart</a>
-                  <a href="#">Menu</a>
-                  <a href="#">App</a>
-                  <a href="#">Contact Us</a>
+                <div className="footer-links flex flex-col ">
+                  <a href="#" className=" text-decoration-none">
+                    Home
+                  </a>
+                  <a href="#" className=" text-decoration-none">
+                    Cart
+                  </a>
+                  <a href="#" className=" text-decoration-none">
+                    Menu
+                  </a>
+                  <a href="#" className=" text-decoration-none">
+                    App
+                  </a>
+                  <a href="#" className=" text-decoration-none">
+                    Contact Us
+                  </a>
                 </div>
               </div>
 
-              <div className="col-12 col-md-6 col-lg-3 mb-4">
-                <h5>Contact Us</h5>
+              <div className="col-12 col-md-6 flex flex-col items-start col-lg-3 mb-4">
+                <h5 className=" w-full flex justify-center">Contact Us</h5>
                 <div className="contact-item flex gap-2">
                   <i className="fas fa-phone"></i>
                   <span>+855 81-981-012</span>
@@ -98,7 +110,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="footer-bottom">
+          <div className="footer-bottom">
             &copy; <span id="year"></span> The-Moon-Shopper. All rights
             reserved.
           </div>
