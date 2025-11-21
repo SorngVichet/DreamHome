@@ -47,25 +47,25 @@ const BodyofHomepage = () => {
             All
           </NavLink>
           <NavLink
-            to="/HomeeRenter/hotel"
+            to="/DreamHome/hotel"
             className=" px-3 bg-amber-200  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Hotel
           </NavLink>
           <NavLink
-            to="/HomeeRenter/condo"
+            to="/DreamHome/condo"
             className=" px-3 bg-amber-100  hover:bg-gray-200 hover:scale-95  hover:text-orange-400 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Condo
           </NavLink>
           <NavLink
-            to="/HomeeRenter/villa"
+            to="/DreamHome/villa"
             className="px-3 bg-amber-200  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Villa
           </NavLink>
           <NavLink
-            to="/HomeeRenter/apartment"
+            to="/DreamHome/apartment"
             className=" px-3 bg-amber-100  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Apartment
@@ -75,7 +75,7 @@ const BodyofHomepage = () => {
       <CartInHomepage
         img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/90/02/90/the-plantation.jpg?w=1200&h=700&s=1
       "
-        link="/HomeeRenter/hotel"
+        link="/DreamHome/hotel"
         type="Hotel"
         ppm="599"
         ppy="5999"
@@ -90,7 +90,7 @@ const BodyofHomepage = () => {
         sizeW="200"
         bgcolor=" bg-gray-100"
         moreExpr="There are a lots of Hotels which you can book."
-        Href="/HomeeRenter/pay1"
+        Href="/DreamHome/pay1"
       ></CartInHomepage>
       <CartInHomepage
         img="https://archipro.com.au/images/s1/article/building/Form-Apartments-Port-Coogee-by-Stiebel-Eltron-.jpg/eyJlZGl0cyI6W3sidHlwZSI6InpwY2YiLCJvcHRpb25zIjp7ImJveFdpZHRoIjoxOTIwLCJib3hIZWlnaHQiOjE1NTgsImNvdmVyIjp0cnVlLCJ6b29tV2lkdGgiOjIzMTcsInNjcm9sbFBvc1giOjU2LCJzY3JvbGxQb3NZIjozMywiYmFja2dyb3VuZCI6InJnYigxMTUsMTQwLDE5NCkiLCJmaWx0ZXIiOjZ9fV0sInF1YWxpdHkiOjg3fQ==
@@ -110,7 +110,7 @@ const BodyofHomepage = () => {
         sizeW="200"
         bgcolor=" bg-gray-100"
         moreExpr="There are a lots of Hotels which you can book."
-        Href="/HomeeRenter/pay1"
+        Href="/DreamHome/pay1"
       ></CartInHomepage>
       <CartInHomepage
         img="https://ohdidi.vn/uploads/static/HOMES/ha-noi/xavila/xavila_8.jpg"
@@ -134,7 +134,7 @@ const BodyofHomepage = () => {
       <CartInHomepage
         img="https://images.realestate.com.kh/__sized__/listings/2025-03/bd-011-thumbnail-750x562-70.jpeg"
         type="Condo"
-        link="/HomeeRenter/condo"
+        link="/DreamHome/condo"
         ppm="550"
         ppy="6599"
         title="The populr Condo in Phnom Penh"
@@ -143,7 +143,7 @@ const BodyofHomepage = () => {
         livingroom="4"
         bathroom="4"
         kitchen="2"
-        Href="/HomeeRenter/pay1"
+        Href="/DreamHome/pay1"
         pool="0"
         sizeH="50"
         sizeW="40"

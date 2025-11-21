@@ -24,7 +24,7 @@ const Navbar = () => {
         </button>
         <div className="  d-md-flex  d-none  h-full   md:text-xs lg:text-lg   gap-1    p-2 ">
           <NavLink
-            to="/HomeeRenter/"
+            to="/DreamHome/"
             className=" flex cursor-pointer text-black  text-decoration-none  border-b   gap-2 px-1.5  py-2 hover:bg-gray-200 transition-all duration-500 items-center"
           >
             <i className="fa-regular fa-house"></i>
@@ -42,7 +42,7 @@ const Navbar = () => {
             </button>
             <ul className="dropdown-menu rounded-0">
               <NavLink
-                to="/HomeeRenter/hotel"
+                to="/DreamHome/hotel"
                 className=" text-decoration-none bg-amber-200"
               >
                 <a className="dropdown-item" href="#">
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </a>
               </NavLink>
               <NavLink
-                to="/HomeeRenter/villa"
+                to="/DreamHome/villa"
                 className=" text-decoration-none text-black"
               >
                 <a className="dropdown-item" href="#">
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </a>
               </NavLink>
               <NavLink
-                to="/HomeeRenter/condo"
+                to="/DreamHome/condo"
                 className=" text-decoration-none text-black bg-amber-200"
               >
                 <a className="dropdown-item" href="#">
@@ -66,7 +66,7 @@ const Navbar = () => {
                 </a>
               </NavLink>
               <NavLink
-                to="/HomeeRenter/apartment"
+                to="/DreamHome/apartment"
                 className=" text-decoration-none text-black "
               >
                 <a className="dropdown-item" href="#">
@@ -76,28 +76,28 @@ const Navbar = () => {
             </ul>
           </div>
           <NavLink
-            to="/HomeeRenter/gallery"
+            to="/DreamHome/gallery"
             className=" flex  text-black  text-decoration-none cursor-pointer  border-b text-1xl gap-2 px-1 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
           >
             <i className="fa-regular fa-image"></i>
             <span>Gallery</span>
           </NavLink>
           <NavLink
-            to="/HomeeRenter/service"
+            to="/DreamHome/service"
             className=" flex cursor-pointer text-decoration-none text-black   border-b text-1xl gap-2 px-1 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
           >
             <i className="fa-brands fa-atlassian"></i>
             <span>Services</span>
           </NavLink>
           <NavLink
-            to="/HomeeRenter/about"
+            to="/DreamHome/about"
             className=" flex cursor-pointer  text-black  text-decoration-none  border-b text-1xl gap-2 px-1 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
           >
             <i className="fa-solid fa-people-group"></i>
             <span>About</span>
           </NavLink>
           <NavLink
-            to="/HomeeRenter/contact"
+            to="/DreamHome/contact"
             className=" flex cursor-pointer  text-black  text-decoration-none  border-b text-1xl gap-2 px-1 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
           >
             <i className="fa-regular fa-address-card"></i>
@@ -123,7 +123,7 @@ const Navbar = () => {
           </div>
           <div className="offcanvas-body p-0  flex flex-col px-2 ">
             <NavLink
-              to="/Homeerenter/"
+              to="/DreamHome/"
               className=" cursor-pointer  text-black  text-decoration-none flex w-full  border-b text-2xl gap-2 ps-3 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
             >
               <i className="fa-regular fa-house"></i>
@@ -141,7 +141,7 @@ const Navbar = () => {
               </button>
               <ul className="dropdown-menu rounded-0">
                 <NavLink
-                  to="/HomeeRenter/hotel"
+                  to="/DreamHome/hotel"
                   className=" text-decoration-none text-black bg-amber-200"
                 >
                   <a className="dropdown-item" href="#">
@@ -149,7 +149,7 @@ const Navbar = () => {
                   </a>
                 </NavLink>
                 <NavLink
-                  to="/HomeeRenter/villa"
+                  to="/DreamHome/villa"
                   className=" text-decoration-none text-black"
                 >
                   <a className="dropdown-item" href="#">
@@ -157,7 +157,7 @@ const Navbar = () => {
                   </a>
                 </NavLink>
                 <NavLink
-                  to="/HomeeRenter/condo"
+                  to="/DreamHome/condo"
                   className="  text-decoration-none text-black bg-amber-200"
                 >
                   <a className="dropdown-item" href="#">
@@ -165,7 +165,7 @@ const Navbar = () => {
                   </a>
                 </NavLink>
                 <NavLink
-                  to="/HomeeRenter/apartment"
+                  to="/DreamHome/apartment"
                   className=" text-decoration-none text-black "
                 >
                   <a className="dropdown-item" href="#">
@@ -175,28 +175,28 @@ const Navbar = () => {
               </ul>
             </div>
             <NavLink
-              to="/HomeeRenter/gallery"
+              to="/DreamHome/gallery"
               className=" cursor-pointer flex  text-black  text-decoration-none w-full border-b text-2xl gap-2 ps-3 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
             >
               <i className="fa-regular fa-image"></i>
               <span>Galleries</span>
             </NavLink>
             <NavLink
-              to="/HomeeRenter/service"
+              to="/DreamHome/service"
               className=" cursor-pointer text-decoration-none text-black flex w-full  border-b text-2xl gap-2 ps-3 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
             >
               <i className="fa-brands fa-atlassian"></i>
               <span>Services</span>
             </NavLink>
             <NavLink
-              to="/HomeeRenter/about"
+              to="/DreamHome/about"
               className=" cursor-pointer  text-black  text-decoration-none flex w-full border-b text-2xl gap-2 ps-3 py-2 hover:bg-gray-200 transition-all duration-500 items-center"
             >
               <i className="fa-solid fa-people-group"></i>
               <span>About</span>
             </NavLink>
             <NavLink
-              to="/Homeerenter/contact"
+              to="/DreamHome/contact"
               className=" cursor-pointer  text-black  text-decoration-none flex w-full  border-b text-2xl gap-2 ps-3 py-2 bg-gray-300 hover:bg-gray-500 transition-all duration-500 items-center"
             >
               <i className="fa-regular fa-address-card"></i>

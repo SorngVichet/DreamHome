@@ -19,16 +19,16 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/HomeeRenter/" element={<Homepage />} />
-        <Route path="/HomeeRenter/service" element={<Service />} />
-        <Route path="/HomeeRenter/contact" element={<Contactpage />} />
-        <Route path="/HomeeRenter/about" element={<About />} />
-        <Route path="/HomeeRenter/gallery" element={<Gallerypage />} />
-        <Route path="/HomeeRenter/hotel" element={<Hotelpage />} />
-        <Route path="/HomeeRenter/condo" element={<Condopage />} />
-        <Route path="/HomeeRenter/villa" element={<Villapage />} />
-        <Route path="/HomeeRenter/apartment" element={<Apartmentpage />} />
-        <Route path="/HomeeRenter/pay1" element={<Pay />} />
+        <Route path="/DreamHome/" element={<Homepage />} />
+        <Route path="/DreamHome/service" element={<Service />} />
+        <Route path="/DreamHome/contact" element={<Contactpage />} />
+        <Route path="/DreamHome/about" element={<About />} />
+        <Route path="/DreamHome/gallery" element={<Gallerypage />} />
+        <Route path="/DreamHome/hotel" element={<Hotelpage />} />
+        <Route path="/DreamHome/condo" element={<Condopage />} />
+        <Route path="/DreamHome/villa" element={<Villapage />} />
+        <Route path="/DreamHome/apartment" element={<Apartmentpage />} />
+        <Route path="/DreamHome/pay1" element={<Pay />} />
       </Routes>
 
       <Footer />
