@@ -95,7 +95,7 @@ const Homepage = () => {
          b1 text-blue-500   justify-start pb-2  flex flex-col items-center sm:justify-center  border    w-full h-full "
           >
             <span className=" text-orange-400 lg:text-5xl md:text-4xl fw-bold text-3xl ">
-              Welcome To Dream House Website
+              Welcome To Dream Home Website
             </span>
             <span className=" md:text-xl text-yellow-600">
               Modern & Luxury Home for Specail!

@@ -44,29 +44,29 @@ const Footer = () => {
               <div className="col-12 col-md-6 col-lg-3 mb-4">
                 <h5>Quick Links</h5>
                 <div className="footer-links flex flex-col ">
-                  <NavLink to="/DreamHome" className=" text-decoration-none">
+                  <NavLink to="/dreamhome" className=" text-decoration-none">
                     Home
                   </NavLink>
                   <NavLink
-                    to="/DreamHome/gallery"
+                    to="/dreamhome/gallery"
                     className=" text-decoration-none"
                   >
                     Cart
                   </NavLink>
                   <NavLink
-                    to="/DreamHome/service"
+                    to="/dreamhome/service"
                     className=" text-decoration-none"
                   >
                     Service
                   </NavLink>
                   <NavLink
-                    to="/DreamHome/about"
+                    to="/dreamhome/about"
                     className=" text-decoration-none"
                   >
                     About
                   </NavLink>
                   <NavLink
-                    to="/DreamHome/contact"
+                    to="/dreamhome/contact"
                     className=" text-decoration-none"
                   >
                     Contact

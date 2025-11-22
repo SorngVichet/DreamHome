@@ -3,8 +3,7 @@ import mastercart from "../assets/Mastercard.webp";
 import aba from "../assets/aba.png";
 import aceleda from "../assets/aceleda.png";
 import Headbar from "./Headbar";
-
-const Pay1 = () => {
+const Pay3 = () => {
   return (
     <div
       style={{ minHeight: "100vh" }}
@@ -28,9 +27,7 @@ const Pay1 = () => {
             >
               <img
                 className=" w-full"
-                src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/90/02/90/the-plantation.jpg?w=1200&h=700&s=1
-      "
-                alt="photo"
+                src="https://ohdidi.vn/uploads/static/HOMES/ha-noi/xavila/xavila_8.jpg"
               />
             </div>
           </div>
@@ -42,16 +39,16 @@ const Pay1 = () => {
                 <span className=" border-b bg-gray-200 font-semibold">
                   Type
                 </span>
-                <span className=" bg-gray-100">hotel</span>
+                <span className=" bg-gray-100">Apartment</span>
               </div>
               <div className=" flex flex-col">
                 <span className=" border-b bg-gray-100 font-semibold">
                   Size
                 </span>
                 <span className=" bg-gray-200">
-                  100{" "}
+                  300{" "}
                   <i className=" caret-neutral-50 text-sm fa-solid fa-xmark"></i>
-                  200 m<sup>2</sup>
+                  400 m<sup>2</sup>
                 </span>
               </div>
             </div>
@@ -61,11 +58,11 @@ const Pay1 = () => {
             <div className=" gap-2 px-2 w-full grid grid-cols-2">
               <div className="  flex flex-col">
                 <span className=" border-b bg-gray-200 font-semibold">PPM</span>
-                <span className=" bg-gray-100">599$</span>
+                <span className=" bg-gray-100">500$</span>
               </div>
               <div className=" flex flex-col">
                 <span className=" border-b bg-gray-100 font-semibold">PPY</span>
-                <span className=" bg-gray-200">5999$</span>
+                <span className=" bg-gray-200">6000$</span>
               </div>
             </div>
           </div>
@@ -324,4 +321,4 @@ const Pay1 = () => {
     </div>
   );
 };
-export default Pay1;
+export default Pay3;

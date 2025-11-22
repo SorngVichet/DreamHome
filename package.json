@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sorngvichet.github.io/DreamHome",
+  "homepage": "https://sorngvichet.github.io/dreamhome",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

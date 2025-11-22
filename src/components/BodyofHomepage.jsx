@@ -41,31 +41,31 @@ const BodyofHomepage = () => {
         <h3 className=" w-full bg-amber-500 py-1"> All Our Properties</h3>
         <ul className=" text-decoration-none ps-0  justify-content-center  d-flex  text-xl flex-col flex-md-row justify-center items-center">
           <NavLink
-            to="/HomeeRenter/gallery"
+            to="/dreamhome/gallery"
             className=" px-3 bg-amber-100  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             All
           </NavLink>
           <NavLink
-            to="/DreamHome/hotel"
+            to="/dreamhome/hotel"
             className=" px-3 bg-amber-200  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Hotel
           </NavLink>
           <NavLink
-            to="/DreamHome/condo"
+            to="/dreamhome/condo"
             className=" px-3 bg-amber-100  hover:bg-gray-200 hover:scale-95  hover:text-orange-400 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Condo
           </NavLink>
           <NavLink
-            to="/DreamHome/villa"
+            to="/dreamhome/villa"
             className="px-3 bg-amber-200  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Villa
           </NavLink>
           <NavLink
-            to="/DreamHome/apartment"
+            to="/dreamhome/apartment"
             className=" px-3 bg-amber-100  hover:bg-gray-200 hover:scale-95 transition-all duration-500 w-full text-decoration-none text-black"
           >
             Apartment
@@ -75,7 +75,7 @@ const BodyofHomepage = () => {
       <CartInHomepage
         img="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/90/02/90/the-plantation.jpg?w=1200&h=700&s=1
       "
-        link="/DreamHome/hotel"
+        link="/dreamhome/hotel"
         type="Hotel"
         ppm="599"
         ppy="5999"
@@ -90,12 +90,12 @@ const BodyofHomepage = () => {
         sizeW="200"
         bgcolor=" bg-gray-100"
         moreExpr="There are a lots of Hotels which you can book."
-        Href="/DreamHome/pay1"
+        Href="/dreamhome/pay1"
       ></CartInHomepage>
       <CartInHomepage
         img="https://archipro.com.au/images/s1/article/building/Form-Apartments-Port-Coogee-by-Stiebel-Eltron-.jpg/eyJlZGl0cyI6W3sidHlwZSI6InpwY2YiLCJvcHRpb25zIjp7ImJveFdpZHRoIjoxOTIwLCJib3hIZWlnaHQiOjE1NTgsImNvdmVyIjp0cnVlLCJ6b29tV2lkdGgiOjIzMTcsInNjcm9sbFBvc1giOjU2LCJzY3JvbGxQb3NZIjozMywiYmFja2dyb3VuZCI6InJnYigxMTUsMTQwLDE5NCkiLCJmaWx0ZXIiOjZ9fV0sInF1YWxpdHkiOjg3fQ==
       "
-        link="/HomeeRenter/villa"
+        link="/dreamhome/villa"
         type="Hotel"
         ppm="500"
         ppy="6000"
@@ -110,15 +110,15 @@ const BodyofHomepage = () => {
         sizeW="200"
         bgcolor=" bg-gray-100"
         moreExpr="There are a lots of Hotels which you can book."
-        Href="/DreamHome/pay1"
+        Href="/dreamhome/pay2"
       ></CartInHomepage>
       <CartInHomepage
         img="https://ohdidi.vn/uploads/static/HOMES/ha-noi/xavila/xavila_8.jpg"
         type="Apartment"
-        link="/HomeeRenter/apartment"
+        link="/dreamhome/apartment"
         ppm="500"
         ppy="6000"
-        Href="/HomeeRenter/pay1"
+        Href="/dreamhome/pay3"
         title="The Comfortable Apartment in Siem Reap"
         titleExpr="The best for mountainal person."
         bedroom="12"
@@ -134,7 +134,7 @@ const BodyofHomepage = () => {
       <CartInHomepage
         img="https://images.realestate.com.kh/__sized__/listings/2025-03/bd-011-thumbnail-750x562-70.jpeg"
         type="Condo"
-        link="/DreamHome/condo"
+        link="/dreamhome/condo"
         ppm="550"
         ppy="6599"
         title="The populr Condo in Phnom Penh"
@@ -143,7 +143,7 @@ const BodyofHomepage = () => {
         livingroom="4"
         bathroom="4"
         kitchen="2"
-        Href="/DreamHome/pay1"
+        Href="/dreamhome/pay4"
         pool="0"
         sizeH="50"
         sizeW="40"

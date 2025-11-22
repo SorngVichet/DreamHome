@@ -12,27 +12,36 @@ import Hotelpage from "./components/Hoteltel.jsx";
 import Condopage from "./components/Condopage.jsx";
 import Villapage from "./components/Villapage.jsx";
 import Apartmentpage from "./components/Apartmentpage.jsx";
-import Pay from "./components/Pay1.jsx";
+import Pay1 from "./components/Pay1.jsx";
+import Pay2 from "./components/Pay2.jsx";
+import Pay3 from "./components/Pay3.jsx";
+import Pay4 from "./components/Pay4.jsx";
+import ScrollToTop from "./ScrollTop.jsx";
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <ScrollToTop />
       <Navbar />
 
       <Routes>
-        <Route path="/DreamHome/" element={<Homepage />} />
-        <Route path="/DreamHome/service" element={<Service />} />
-        <Route path="/DreamHome/contact" element={<Contactpage />} />
-        <Route path="/DreamHome/about" element={<About />} />
-        <Route path="/DreamHome/gallery" element={<Gallerypage />} />
-        <Route path="/DreamHome/hotel" element={<Hotelpage />} />
-        <Route path="/DreamHome/condo" element={<Condopage />} />
-        <Route path="/DreamHome/villa" element={<Villapage />} />
-        <Route path="/DreamHome/apartment" element={<Apartmentpage />} />
-        <Route path="/DreamHome/pay1" element={<Pay />} />
+        <Route path="/" element={<Homepage />} />
+        <Route path="/dreamhome/" element={<Homepage />} />
+        <Route path="/dreamhome/service" element={<Service />} />
+        <Route path="/dreamhome/contact" element={<Contactpage />} />
+        <Route path="/dreamhome/about" element={<About />} />
+        <Route path="/dreamhome/gallery" element={<Gallerypage />} />
+        <Route path="/dreamhome/hotel" element={<Hotelpage />} />
+        <Route path="/dreamhome/condo" element={<Condopage />} />
+        <Route path="/dreamhome/villa" element={<Villapage />} />
+        <Route path="/dreamhome/apartment" element={<Apartmentpage />} />
+        <Route path="/dreamhome/pay1" element={<Pay1 />} />
+        <Route path="/dreamhome/pay2" element={<Pay2 />} />
+        <Route path="/dreamhome/pay3" element={<Pay3 />} />
+        <Route path="/dreamhome/pay4" element={<Pay4 />} />
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

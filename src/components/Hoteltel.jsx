@@ -1,13 +1,15 @@
 import React from "react";
-
+import Headbar from "./Headbar";
+import HeaderPage from "./HeaderPage";
 const Hotel = () => {
   return (
     <div
-      id="hotelpage"
-      style={{ height: "100vh" }}
-      className=" flex justify-center items-center w-full"
+      id="gallerypage"
+      style={{ minHeight: "100vh" }}
+      className=" pt-16  w-full"
     >
-      <h1>Hotels Page</h1>
+      <Headbar />
+      <HeaderPage heading="All Hoteles" />
     </div>
   );
 };
